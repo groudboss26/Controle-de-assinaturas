@@ -118,11 +118,15 @@ DELETE /subscriptions/:id
 
 ## Como Executar o Projeto
 
-Instale as dependencias:
+Antes de executar o projeto, e obrigatorio baixar os modulos necessarios para que tudo funcione corretamente.
+
+Instale as dependencias com:
 
 ```bash
 npm install
 ```
+
+Esse comando cria a pasta `node_modules` e baixa todas as bibliotecas usadas pelo projeto, incluindo Express, Helmet, Express Rate Limit, TypeScript e TSX. Sem essa etapa, os comandos de desenvolvimento, build e start podem falhar.
 
 Execute em modo desenvolvimento:
 

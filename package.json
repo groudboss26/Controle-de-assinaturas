@@ -1,0 +1,30 @@
+{
+  "name": "controle-de-assinaturas",
+  "version": "1.1.0",
+  "description": "Microservico MVC para gerenciamento de assinaturas com Node.js, TypeScript e SQLite nativo.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "assinaturas",
+    "typescript",
+    "sqlite",
+    "mvc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
